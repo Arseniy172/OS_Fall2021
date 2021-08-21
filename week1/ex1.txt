@@ -1,2 +1,0 @@
-(standard input):llvm-gcc
-(standard input):gcc
