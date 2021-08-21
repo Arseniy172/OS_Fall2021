@@ -51,3 +51,12 @@
  1052  history > ex2.txt
  1053  history 926 > ex2.txt
  1054  history 987 > ex2.txt
+ 1055  history 1002 > ex2.txt
+ 1056  ды
+ 1057  ls
+ 1058  ls
+ 1059  gedit ∼ /week1/main.c
+ 1060  gedit main.c
+ 1061  gedit main.c
+ 1062  gcc main.c -o ex4
+ 1063  ./ex4
