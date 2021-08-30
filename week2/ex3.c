@@ -1,8 +1,7 @@
 #include <stdio.h>
-int main(void){
+int main(int argc, char *argv[]){
     int n, spaces, stars_start, stars_end;
-	printf("Enter a number: ");
-	scanf("%d",&n);
+	sscanf(argv[1], "%d", &n);
 	int target = (2*n-1)/2+1;
 	for (int k = 1; k <= n; k++){
 		for (int i = 1; i <= (2*n-1); i++){
