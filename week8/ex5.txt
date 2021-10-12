@@ -1,0 +1,3 @@
+Difference between physical and virtual memory is that address of a physical memory is the exact address of a cell
+in memory (for example, RAM). But address of a virtual memory can be stored in different types of memory by switching pages.
+More over, virtual address maps to a physical address by using MMU, which is responsible for mapping addresses.
