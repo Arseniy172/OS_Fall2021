@@ -1,0 +1,23 @@
+1) Increased Hit / Miss ratio
+
+    Sequence: 1 1 1 2 2 2 3 3 3 4 4 4 2 4 3 2 3 3 4 2 
+    N = 2
+    Number of hits = 14
+    Number of misses = 9
+    Hits / Misses = 1.55556
+
+2) Decreased Hit/ Miss ratio
+
+    Low hit / miss ratio:
+    Sequence: 4 3 2 1 4 3 2 1 4 3 2 1 4 3 2 1 4 3 2 1
+    N = 3
+    Number of hits = 5
+    Number of misses = 14
+    Hits / Misses = 0.357142
+
+Explanation:
+
+The aging algorithm works in a way that pages, which were used in last recent instructions will be used again. 
+A high Hit / Miss ratio will happen when we will request same pages recently, as the aging algorithm will work. 
+Otherwise, a low Hit / Miss ratio will happen when we will request different pages. Hence, we will meet same pages 
+rarely.
