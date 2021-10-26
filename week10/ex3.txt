@@ -1,0 +1,24 @@
+-rw-rw-r-- 1 Gans 0 окт 26 13:12 _ex3.txt
+-rw-rw-r-- 1 Gans 0 окт 26 13:12 _ex3.txt
+-rwxrw-rwx 1 Gans 0 окт 26 13:12 _ex3.txt
+-rwxrwxrwx 1 Gans 0 окт 26 13:12 _ex3.txt
+
+Explanation:
+Each number we have to express as a binary number. More over,
+for every user we will get permission bits in order: user, group, other.
+Order of access bits: read, write, execute.
+
+1) Case 600:
+user can read and write, but cannot execute
+group can read and write, but not execute
+other can read, write and execute
+
+2) Case 775
+user can read, write and execute
+group can read, write and execute
+other can read and execute, but cannot write
+
+3) Case 777
+user can read, write and execute
+group can read, write and execute
+other can read, write and execute
