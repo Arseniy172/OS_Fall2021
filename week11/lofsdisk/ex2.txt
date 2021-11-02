@@ -1,0 +1,17 @@
+List of files: 
+.
+..
+file2
+ex2.c
+file1
+ex2.out
+ex2.txt
+List of files: 
+.
+..
+file2
+ex2.c
+lib
+file1
+ex2.out
+ex2.txt
