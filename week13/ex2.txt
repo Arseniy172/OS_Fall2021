@@ -1,0 +1,18 @@
+Recovery technique:
+
+    This strategy is used when the system does not attempt to prevent deadlock from occuring. But it lets these deadlocks occur, 
+    while trying to detect when this happens and then tries some options to recover after it. That is the main advantage in comparison
+    with other two strategies.
+
+Prevention technique:
+
+    As a echnique of avoidence of deadlocks is practically impossible, as you have to know some information in advance, 
+    a deadlock prevention strategy is the much more applicable one. If you will ensure that some of four conditions will not hold
+    to create a deadlock, you will prevent it.
+
+Avoidence technique:
+
+    This strategy provides us with an ability to avoid deadlocks only if some qualified information is known in advance. That 
+    particular strategy is pratically impossible to implement, as you cannot ensure that you will know some specifics about 
+    some deadlocks in advance, which you have to know due to that strategy logic.
+
